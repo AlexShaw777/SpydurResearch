@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #efe8eb;
+    /* background-color: #EFE8EB; */
+    margin: 0%;
+    padding: 0%;
+}
+
+.banner{
+	display: flex;
+	justify-content: space-between;
+    position: relative;
+    height: 50px;
+    width: 100vw;
+    background-color: #CE0000;
+    align-items: center;
+    display: flex;
+    z-index: 1;
+    margin: 0%;
+    padding: 0%;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+#menu *{
+    margin: 5px;
+}
+
+.sub_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 70px;
+    /* border: 2px solid gold; */
+    /* width: 130px; */
+    display: none;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.sub_menu *{
+	margin: 2px;
+}
+
+#menu:hover .sub_menu{
+    display: block;
+    /* cursor: pointer; */
+    /* background-color: black; */
+}
+
+.sub_menu a:hover{
+    color: black;
+}
+
+.menu_button{
+    /* position: relative; */
+    margin: 13px 10px;
+    /* margin-left: 10px; */
+    height: 25px;
+    width: 50px;
+    color: #CE0000;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: -2px 2px 4px #12121240;
+    /* z-index: 2; */
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+
+/* ------------------------------------------------------ */
+
+#professor_name{
+	align-items: center;
+	color: white;
+}
+
+#container
+{
+	display: flex;
+	flex-direction: row;
+	padding: 50px 100px;
+	margin-bottom: 0;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#left_container{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 50%;
+	box-sizing: border-box;
+	justify-content: space-between;
+	align-items: center;
+	height: 80vh;
+
+	/*! for testing */
+	/* border: 2px solid red; */
+}
+
+.text-box{
+	height: 150px;
+	/* border: 2px solid red; */
+}
+
+#right_container{
+	display: flex;
+	flex-direction: column;
+	height: 80vh;
+	justify-content: space-between;
+}
+
+#department, #research_name, #desc, #responsibilities{
+	background-color: white;
+	color: black;
+	/* box-shadow: 0px 2px 12px #12121240; */
+    box-shadow: -4px 4px 12px #12121240;
+	border-radius: 12px;
+	box-sizing: border-box;
+	padding: 5px 10px;
+}
+
+#department, #research_name, #desc, #responsibilities{
+	/* height: 90px; */
+}
+
+#picture{
+	height: 400px;
+	width: 350px;
+	color: black;
+	background-color: #CE0000;
+	border-radius: 12px;
+
+	/*! maybe delete later */
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+}
+
+#picture img{
+	height: 100%;
+	width: 100%;
+	border-radius: 12px;
+	box-shadow: -4px 4px 12px #12121280;
+	object-fit: cover;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+
+#button{
+	background-color: #CE0000;
+	color: white;
+	box-shadow: -4px 4px 12px #12121280;
+	width: 350px;
+	height: 80px;
+	border: none;
+	border-radius: 12px;
+	font-size: 42px;
+}
+
+.top {
+	color: #CE0000;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0%;
+	/* border: 2px solid red; */
+}
+.text-box p{
+	margin: 0%;
+	margin-top: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited{
+	text-decoration: none;
+	color: inherit;
+}
